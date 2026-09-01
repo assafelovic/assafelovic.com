@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { SectionHeading } from "@/components/section-heading";
-import { posts, projects, investments } from "@/lib/data";
+import { posts, investments } from "@/lib/data";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/" },
@@ -52,6 +52,12 @@ export default function Home() {
           Index.
         </p>
       </div>
+      <Link
+        href="/about"
+        className="mt-6 inline-block font-mono text-[15px] text-muted transition-colors hover:text-foreground"
+      >
+        the full story →
+      </Link>
 
       <SectionHeading>investing</SectionHeading>
       <p className="text-[18px] leading-relaxed text-foreground/85">
@@ -70,33 +76,6 @@ export default function Home() {
           </span>
         ))}
       </p>
-
-      <SectionHeading>projects</SectionHeading>
-      <ul>
-        {projects.map((project) => (
-          <li key={project.name} className="border-b border-line">
-            <a
-              href={project.href}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="group flex items-baseline gap-4 py-2.5"
-            >
-              <span className="text-[18px] font-[450] decoration-muted/60 underline-offset-3 group-hover:underline">
-                {project.name}
-              </span>
-              <span className="ml-auto shrink-0 font-mono text-[14px] text-muted">
-                {project.meta}
-              </span>
-            </a>
-          </li>
-        ))}
-      </ul>
-      <Link
-        href="/about"
-        className="mt-4 inline-block font-mono text-[15px] text-muted transition-colors hover:text-foreground"
-      >
-        the full story →
-      </Link>
 
       <SectionHeading>writing</SectionHeading>
       <ul>
