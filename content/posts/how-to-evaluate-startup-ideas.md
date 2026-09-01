@@ -37,5 +37,3 @@ The Knowledge Spectrum has a lot of depth to it and can be used in other areas a
 There are so many factors to take in mind when evaluating a startup idea. But one factor that is hardly measurable happens to be a very important one — luck (or bad luck). For example, think of all the startups that launched right before the great recession, or those that launched right before a hype (like cryptocurrencies). The metrics we use to measure an idea, are simply there to help asses the risk — the probability of failure or success.
 
 In my next articles, I’ll show more popular metrics and things to consider when evaluating startup ideas, so stay tuned!
-
-*If you’ve enjoyed this piece, go ahead, give it a clap 👏🏻👏🏻👏🏻! You can also share it somewhere online so others can read it too. If you have any questions, feel free to drop me a line in the comments below!*

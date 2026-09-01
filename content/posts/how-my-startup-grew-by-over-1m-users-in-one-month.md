@@ -129,5 +129,3 @@ As they say in customer service: the customer is always right. The same goes for
 2.  You have a product people want. Good job, you’re on the way to building a company!
 
 Either way, you win.
-
-Thank you very much for reading, if you found this useful, please give me some claps 👏👏👏 so more people can see it. For more articles, visit my tech blog at [assafelovic.com](https://assafelovic.com). If you have any questions, feel free to drop me a line in the comments below!

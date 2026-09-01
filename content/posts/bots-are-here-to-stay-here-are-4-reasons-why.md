@@ -77,5 +77,3 @@ Instead of building applications and spending hundreds of thousands of dollars, 
 The future and success of chatbots depend not only on big tech companies, but on developers and entrepreneurs who continue to innovate and push boundaries in AI and conversational interfaces. Most of the current mistakes in this sectors are tomorrows improvements and solutions. Eventually, bots will bring great value that cannot be achieved with today’s applications.
 
 To learn more about chatbots, go ahead and read the [chatbots beginners guide](http://www.assafelovic.com/blog/2016/7/11/chatbots-the-beginners-guide). If you want to start building one, read this post on [how to develop a Facebook Messenger bot](http://www.assafelovic.com/blog/2016/9/11/how-to-develop-a-fb-msg-bot).
-
-*If you’ve enjoyed this piece, go ahead, give it a clap 👏🏻! You can also share it somewhere online so others can read it too.*

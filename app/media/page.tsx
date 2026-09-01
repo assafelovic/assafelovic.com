@@ -85,12 +85,16 @@ export default function Media() {
       <h1 className="mb-6 text-[30px] font-semibold leading-snug tracking-tight">
         Around the web
       </h1>
-      <p className="mb-5 font-mono text-[14px] text-muted">
-        $ tavily search &quot;assaf elovic&quot;
+      <p className="mb-8 text-[18px] leading-relaxed text-foreground/85">
+        Talks I&apos;ve given and press about things I&apos;ve built, from
+        around the web.
       </p>
-      <p className="mb-10 font-mono text-[13px] text-muted">
-        {total} results (0.38s)
-      </p>
+      <div className="mb-10 rounded-md border border-line bg-foreground/[0.03] px-4 py-3 font-mono text-[14px]">
+        <p className="text-foreground/80">
+          $ tavily search &quot;assaf elovic&quot;
+        </p>
+        <p className="mt-1 text-muted">{total} results (0.38s)</p>
+      </div>
 
       <h2 className="mb-2 font-mono text-[14px] font-medium uppercase tracking-[0.14em] text-muted">
         ## videos

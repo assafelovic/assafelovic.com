@@ -53,5 +53,3 @@ An example of an external process would be the delivery process between the prod
 Only you have the time and resources to fully understand and see the high-level picture of what’s needed to accomplish such cross-functional external processes.
 
 I have no doubt many more lessons are to be learnt as I continue my journey in my role, so I hope to continue sharing them with you.
-
-*If you’ve enjoyed this piece, go ahead, give it a clap 👏🏻! You can also share it somewhere online so others can read it too. If you have any questions, feel free to drop me a line in the comments below!*
