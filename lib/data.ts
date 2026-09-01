@@ -97,7 +97,8 @@ export const projects: Project[] = [
   {
     name: "Ora",
     href: "https://ora.ai",
-    description: "Enabling AI agents to use businesses autonomously.",
+    description:
+      "Enabling AI agents to use businesses autonomously. Still in stealth, backed by Sequoia and Index.",
     meta: "2026-now",
     active: true,
   },
@@ -185,7 +186,7 @@ export const timeline: TimelineEntry[] = [
   {
     period: "now",
     title: "Ora",
-    body: "Working on how agents can use businesses autonomously.",
+    body: "Working on how agents can use businesses autonomously. Still in stealth, backed by Sequoia and Index.",
     links: [{ label: "ora.ai", href: "https://ora.ai" }],
   },
 ];
