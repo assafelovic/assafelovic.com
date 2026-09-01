@@ -16,7 +16,7 @@ export default function About() {
       <h1 className="mb-6 text-[30px] font-semibold leading-snug tracking-tight">
         About
       </h1>
-      <div className="space-y-4 text-[18px] leading-relaxed text-foreground/85">
+      <div className="space-y-4 text-[19px] leading-relaxed text-foreground/85">
         <p>
           I&apos;m Assaf. I&apos;ve been building AI agents for over a decade,
           since before anyone called them agents. Back then we called them
@@ -41,8 +41,8 @@ export default function About() {
               {entry.period}
             </span>
             <div>
-              <h3 className="text-[17px] font-semibold">{entry.title}</h3>
-              <p className="mt-1 text-[17px] leading-relaxed text-foreground/80">
+              <h3 className="text-[18px] font-semibold">{entry.title}</h3>
+              <p className="mt-1 text-[18px] leading-relaxed text-foreground/80">
                 {entry.body}
               </p>
               {entry.links && (
@@ -66,7 +66,7 @@ export default function About() {
       </ol>
 
       <SectionHeading>investing</SectionHeading>
-      <p className="text-[17px] leading-relaxed text-foreground/85">
+      <p className="text-[18px] leading-relaxed text-foreground/85">
         I&apos;m also a scout for Sequoia, investing in early stage AI
         startups. Some investments:{" "}
         {investments.map((inv, i) => (
@@ -84,7 +84,7 @@ export default function About() {
       </p>
 
       <SectionHeading>contact</SectionHeading>
-      <p className="text-[17px] leading-relaxed text-foreground/85">
+      <p className="text-[18px] leading-relaxed text-foreground/85">
         The fastest way to reach me is{" "}
         <a
           href={`mailto:${site.email}`}

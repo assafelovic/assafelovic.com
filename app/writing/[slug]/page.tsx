@@ -56,7 +56,7 @@ export default async function PostPage({
         {post.title}
       </h1>
       {post.description ? (
-        <p className="mb-3 text-[18px] leading-relaxed text-muted">
+        <p className="mb-3 text-[19px] leading-relaxed text-muted">
           {post.description}
         </p>
       ) : null}
@@ -77,17 +77,17 @@ export default async function PostPage({
               </h3>
             ),
             p: ({ children }) => (
-              <p className="mb-5 text-[17px] leading-relaxed text-foreground/90">
+              <p className="mb-5 text-[19px] leading-relaxed text-foreground/90">
                 {children}
               </p>
             ),
             ul: ({ children }) => (
-              <ul className="mb-5 list-disc space-y-2 pl-6 text-[17px] leading-relaxed text-foreground/90">
+              <ul className="mb-5 list-disc space-y-2 pl-6 text-[19px] leading-relaxed text-foreground/90">
                 {children}
               </ul>
             ),
             ol: ({ children }) => (
-              <ol className="mb-5 list-decimal space-y-2 pl-6 text-[17px] leading-relaxed text-foreground/90">
+              <ol className="mb-5 list-decimal space-y-2 pl-6 text-[19px] leading-relaxed text-foreground/90">
                 {children}
               </ol>
             ),
@@ -103,7 +103,7 @@ export default async function PostPage({
               </a>
             ),
             blockquote: ({ children }) => (
-              <blockquote className="mb-5 border-l-2 border-line pl-4 text-[17px] italic text-muted">
+              <blockquote className="mb-5 border-l-2 border-line pl-4 text-[18px] italic text-muted">
                 {children}
               </blockquote>
             ),

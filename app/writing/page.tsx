@@ -17,7 +17,7 @@ export default function Writing() {
       <h1 className="mb-6 text-[30px] font-semibold leading-snug tracking-tight">
         Writing
       </h1>
-      <p className="mb-10 text-[18px] leading-relaxed text-foreground/85">
+      <p className="mb-10 text-[19px] leading-relaxed text-foreground/85">
         I write about building AI products and agents. I&apos;ve been doing it
         since the chatbot days, so some of these have aged better than others.
         Every word here is mine, not AI&apos;s.
@@ -44,7 +44,7 @@ export default function Writing() {
                         month: "short",
                       })}
                     </span>
-                    <span className="text-[17px] font-[450] decoration-muted/60 underline-offset-3 group-hover:underline">
+                    <span className="text-[18px] font-[450] decoration-muted/60 underline-offset-3 group-hover:underline">
                       {post.title}
                     </span>
                   </a>

@@ -35,7 +35,7 @@ function VideoList({ items }: { items: MediaItem[] }) {
                 />
               )}
               <span>
-                <span className="block text-[16px] font-[450] leading-snug decoration-muted/60 underline-offset-3 group-hover:underline">
+                <span className="block text-[17px] font-[450] leading-snug decoration-muted/60 underline-offset-3 group-hover:underline">
                   {item.title}
                 </span>
                 <span className="mt-1 block font-mono text-[13px] text-muted">
@@ -64,7 +64,7 @@ function ResultList({ items }: { items: MediaItem[] }) {
             <span className="w-[4ch] shrink-0 font-mono text-[14px] text-muted">
               {item.year}
             </span>
-            <span className="text-[16px] font-[450] decoration-muted/60 underline-offset-3 group-hover:underline">
+            <span className="text-[17px] font-[450] decoration-muted/60 underline-offset-3 group-hover:underline">
               {item.title}
             </span>
             <span className="ml-auto hidden shrink-0 font-mono text-[13px] text-muted sm:inline">
@@ -85,7 +85,7 @@ export default function Media() {
       <h1 className="mb-6 text-[30px] font-semibold leading-snug tracking-tight">
         Around the web
       </h1>
-      <p className="mb-8 text-[18px] leading-relaxed text-foreground/85">
+      <p className="mb-8 text-[19px] leading-relaxed text-foreground/85">
         Talks I&apos;ve given and press about things I&apos;ve built, from
         around the web.
       </p>

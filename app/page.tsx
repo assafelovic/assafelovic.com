@@ -27,7 +27,7 @@ export default function Home() {
       <h1 className="mb-6 text-[30px] font-semibold leading-snug tracking-tight sm:text-[32px]">
         I&apos;ve been building AI agents for over a decade.
       </h1>
-      <div className="space-y-4 text-[18px] leading-relaxed text-foreground/85">
+      <div className="space-y-4 text-[19px] leading-relaxed text-foreground/85">
         <p>
           I started in 2015 at{" "}
           <A href="https://patents.google.com/patent/US10303758B2">
@@ -54,7 +54,7 @@ export default function Home() {
       </div>
 
       <SectionHeading>investing</SectionHeading>
-      <p className="text-[17px] leading-relaxed text-foreground/85">
+      <p className="text-[18px] leading-relaxed text-foreground/85">
         I&apos;m also a scout for Sequoia, angel investing in early stage AI
         startups. Some investments:{" "}
         {investments.map((inv, i) => (
@@ -81,7 +81,7 @@ export default function Home() {
               rel="noopener noreferrer"
               className="group flex items-baseline gap-4 py-2.5"
             >
-              <span className="text-[17px] font-[450] decoration-muted/60 underline-offset-3 group-hover:underline">
+              <span className="text-[18px] font-[450] decoration-muted/60 underline-offset-3 group-hover:underline">
                 {project.name}
               </span>
               <span className="ml-auto shrink-0 font-mono text-[14px] text-muted">
@@ -109,7 +109,7 @@ export default function Home() {
               <span className="w-[4ch] shrink-0 font-mono text-[15px] text-muted">
                 {post.year}
               </span>
-              <span className="text-[17px] font-[450] decoration-muted/60 underline-offset-3 group-hover:underline">
+              <span className="text-[18px] font-[450] decoration-muted/60 underline-offset-3 group-hover:underline">
                 {post.title}
               </span>
             </a>
