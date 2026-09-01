@@ -28,7 +28,6 @@ const personJsonLd = {
     "https://github.com/assafelovic",
     "https://x.com/assaf_elovic",
     "https://www.linkedin.com/in/assafelovic/",
-    "https://medium.com/@assafelovic",
   ],
 };
 

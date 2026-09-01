@@ -20,6 +20,7 @@ export default function Writing() {
       <p className="mb-10 text-[18px] leading-relaxed text-foreground/85">
         I write about building AI products and agents. I&apos;ve been doing it
         since the chatbot days, so some of these have aged better than others.
+        Every word here is mine, not AI&apos;s.
       </p>
 
       {years.map((year, idx) => (
@@ -33,11 +34,9 @@ export default function Writing() {
             {posts
               .filter((p) => p.year === year)
               .map((post) => (
-                <li key={post.href} className="border-b border-line">
+                <li key={post.slug} className="border-b border-line">
                   <a
-                    href={post.slug ? `/writing/${post.slug}` : post.href}
-                    target={post.slug ? undefined : "_blank"}
-                    rel={post.slug ? undefined : "noopener noreferrer"}
+                    href={`/writing/${post.slug}`}
                     className="group flex items-baseline gap-4 py-2.5"
                   >
                     <span className="w-[6ch] shrink-0 font-mono text-[15px] text-muted">
@@ -55,14 +54,6 @@ export default function Writing() {
         </section>
       ))}
 
-      <a
-        href="https://medium.com/@assafelovic"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="mt-8 inline-block font-mono text-[15px] text-muted transition-colors hover:text-foreground"
-      >
-        earlier posts on medium →
-      </a>
     </>
   );
 }

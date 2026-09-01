@@ -10,112 +10,70 @@ export const site = {
 export const socials = [
   { label: "github", href: "https://github.com/assafelovic" },
   { label: "x", href: "https://x.com/assaf_elovic" },
-  { label: "medium", href: "https://medium.com/@assafelovic" },
   { label: "linkedin", href: "https://www.linkedin.com/in/assafelovic/" },
-  { label: "email", href: "mailto:assaf.elovic@gmail.com" },
 ];
 
 export type Post = {
   title: string;
-  href: string;
+  slug: string; // hosted on this site at /writing/[slug]
   date: string; // ISO
   year: string;
-  slug?: string; // set when the post is hosted on this site
 };
 
 export const posts: Post[] = [
   {
     title: "The Hidden Metric That Determines AI Product Success",
-    href: "https://medium.com/@assafelovic/the-hidden-metric-that-determines-ai-product-success-799a98fd57aa",
-    date: "2025-06-11",
-    year: "2025",
     slug: "the-hidden-metric-that-determines-ai-product-success",
-  },
-  {
-    title: "Introducing GPT Researcher Deep Research",
-    href: "https://medium.com/@assafelovic/introducing-gpt-researcher-deep-research-the-best-open-source-alternative-7675acdb782b",
-    date: "2025-02-26",
+    date: "2025-06-11",
     year: "2025",
   },
   {
     title: "You are Doing Research Wrong",
-    href: "https://medium.com/@assafelovic/the-future-of-ai-driven-research-is-here-27668b76b632",
+    slug: "you-are-doing-research-wrong",
     date: "2024-09-06",
     year: "2024",
-    slug: "you-are-doing-research-wrong",
-  },
-  {
-    title: "How to Build the Ultimate AI Automation with Multi-Agent Collaboration",
-    href: "https://medium.com/@assafelovic/how-to-build-the-ultimate-ai-automation-with-multi-agent-collaboration-ed61a1ea8f3b",
-    date: "2024-05-10",
-    year: "2024",
-  },
-  {
-    title: "How to Build an OpenAI Assistant with Internet Browsing",
-    href: "https://medium.com/@assafelovic/how-to-build-an-openai-assistant-with-internet-browsing-ee5ad7625661",
-    date: "2023-11-12",
-    year: "2023",
   },
   {
     title: "How I Built an Autonomous AI Agent for Online Research",
-    href: "https://medium.com/better-programming/how-i-built-an-autonomous-ai-agent-for-online-research-93435a97c6c",
+    slug: "how-i-built-an-autonomous-ai-agent-for-online-research",
     date: "2023-07-24",
     year: "2023",
-    slug: "how-i-built-an-autonomous-ai-agent-for-online-research",
   },
   {
     title: "Why Open Source Models May Not Win The AI Race",
-    href: "https://pub.towardsai.net/why-open-source-models-may-not-win-the-ai-race-88a3223a1df7",
-    date: "2023-06-22",
-    year: "2023",
     slug: "why-open-source-models-may-not-win-the-ai-race",
-  },
-  {
-    title: "The Ultimate Tech Stack for Building AI Products",
-    href: "https://medium.com/@assafelovic/the-ultimate-tech-stack-for-building-ai-products-497cfa9139cb",
-    date: "2023-06-20",
+    date: "2023-06-22",
     year: "2023",
   },
   {
     title: "Action-Driven LLMs: The Future of Chatbot Development",
-    href: "https://medium.com/better-programming/action-driven-llms-the-future-of-chatbot-development-is-here-80c0d07d278a",
+    slug: "action-driven-llms-the-future-of-chatbot-development",
     date: "2023-02-27",
     year: "2023",
-    slug: "action-driven-llms-the-future-of-chatbot-development",
-  },
-  {
-    title: "Generative AI: The Ultimate Beginner's Guide",
-    href: "https://medium.com/@assafelovic/gpt-3-the-ultimate-beginners-guide-681739cd371d",
-    date: "2022-11-03",
-    year: "2022",
   },
   {
     title: "How to Evaluate Startup Ideas",
-    href: "https://medium.com/swlh/how-to-evaluate-startup-ideas-part-1-4654c702f625",
+    slug: "how-to-evaluate-startup-ideas",
     date: "2019-10-06",
     year: "2019",
-    slug: "how-to-evaluate-startup-ideas",
   },
   {
     title: "What I've Learned as VP at a Large Startup",
-    href: "https://medium.com/free-code-camp/what-i-wish-i-knew-before-becoming-a-vp-at-a-large-startup-d2336645a38b",
+    slug: "what-ive-learned-as-vp-at-a-large-startup",
     date: "2019-03-04",
     year: "2019",
-    slug: "what-ive-learned-as-vp-at-a-large-startup",
   },
   {
     title: "How My Startup Grew by Over 1M Users in One Month",
-    href: "https://medium.com/free-code-camp/how-my-app-grew-by-5-800-in-one-month-with-no-branding-or-marketing-d0bafb93108",
+    slug: "how-my-startup-grew-by-over-1m-users-in-one-month",
     date: "2018-06-09",
     year: "2018",
-    slug: "how-my-startup-grew-by-over-1m-users-in-one-month",
   },
   {
     title: "Bots Are Here to Stay. Here Are 4 Reasons Why",
-    href: "https://medium.com/@assafelovic/bots-are-here-to-stay-here-are-4-reasons-why-caaec6bf5be3",
+    slug: "bots-are-here-to-stay-here-are-4-reasons-why",
     date: "2017-09-08",
     year: "2017",
-    slug: "bots-are-here-to-stay-here-are-4-reasons-why",
   },
 ];
 

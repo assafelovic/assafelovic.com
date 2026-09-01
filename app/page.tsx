@@ -94,11 +94,9 @@ export default function Home() {
       <SectionHeading>writing</SectionHeading>
       <ul>
         {posts.slice(0, 5).map((post) => (
-          <li key={post.href} className="border-b border-line">
+          <li key={post.slug} className="border-b border-line">
             <a
-              href={post.slug ? `/writing/${post.slug}` : post.href}
-              target={post.slug ? undefined : "_blank"}
-              rel={post.slug ? undefined : "noopener noreferrer"}
+              href={`/writing/${post.slug}`}
               className="group flex items-baseline gap-4 py-2.5"
             >
               <span className="w-[4ch] shrink-0 font-mono text-[15px] text-muted">
