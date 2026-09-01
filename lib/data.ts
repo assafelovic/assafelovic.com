@@ -190,6 +190,75 @@ export const timeline: TimelineEntry[] = [
   },
 ];
 
+export type MediaItem = {
+  title: string;
+  href: string;
+  source: string;
+  year: string;
+};
+
+export const videos: MediaItem[] = [
+  {
+    title:
+      "How Monday.com Uses AI for SMBs: Assaf Elovic Takes on Agents, Workflows & Trust",
+    href: "https://www.youtube.com/watch?v=ZT-qhfftx0o",
+    source: "Aleph, Almost Human",
+    year: "2025",
+  },
+  {
+    title: "Learn How Monday.com Built Their AI Agent Workforce with LangGraph",
+    href: "https://www.youtube.com/watch?v=P8ewpJrZVwo",
+    source: "LangChain Interrupt",
+    year: "2025",
+  },
+  {
+    title: "Multi Agents | Assaf Elovic (GPT Researcher)",
+    href: "https://www.youtube.com/watch?v=mLutiqfJxv0",
+    source: "LangTalks",
+    year: "2025",
+  },
+  {
+    title: "Ctrl + AI + Delete: GenAI and the Disruption of Code Production",
+    href: "https://www.youtube.com/watch?v=4dFGZqu0gGk",
+    source: "Aideation",
+    year: "2024",
+  },
+  {
+    title: "From Single to Multi-Agents: GPT Researcher & Wix",
+    href: "https://www.youtube.com/watch?v=J7wd-VtGVhM",
+    source: "LangTalks",
+    year: "2024",
+  },
+  {
+    title: "Leveraging Generative AI to Build the Ultimate AI Chatbot",
+    href: "https://www.youtube.com/watch?v=t7O-HU_Wa_k",
+    source: "Wix Engineering",
+    year: "2024",
+  },
+];
+
+export const press: MediaItem[] = [
+  {
+    title:
+      "Nebius to acquire one-year-old Israeli AI startup Tavily in deal worth up to $400 million",
+    href: "https://www.calcalistech.com/ctechnews/article/r168bhodbe",
+    source: "Calcalist Tech",
+    year: "2026",
+  },
+  {
+    title: "Tavily raises $25M to connect AI agents to the web",
+    href: "https://techcrunch.com/2025/08/06/tavily-raises-25m-to-connect-ai-agents-to-the-web/",
+    source: "TechCrunch",
+    year: "2025",
+  },
+  {
+    title: "Assaf Elovic on GPT Researcher Redefining AI-Driven Research",
+    href: "https://aipressroom.com/assaf-gpt-researcher-ai-interview/",
+    source: "AI Press Room",
+    year: "2024",
+  },
+];
+
 export const investments = [
   { name: "LangChain", note: "" },
   { name: "Anthropic", note: "" },
