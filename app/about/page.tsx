@@ -26,6 +26,10 @@ export default function About() {
           people. Lately it&apos;s the reverse too, making the web usable by
           machines.
         </p>
+        <p>
+          When I&apos;m not building, I&apos;m usually helping others build. I
+          angel invest in early stage AI startups as a scout for Sequoia.
+        </p>
       </div>
 
       <SectionHeading>the story so far</SectionHeading>

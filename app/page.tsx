@@ -41,7 +41,8 @@ export default function Home() {
           <A href="https://tavily.com">Tavily</A>, the search engine for AI
           agents, which Nebius acquired in 2026. Now I&apos;m building{" "}
           <A href="https://ora.ai">Ora</A>, working on how agents can use
-          businesses autonomously.
+          businesses autonomously. I also angel invest in early stage AI
+          startups as a scout for Sequoia.
         </p>
       </div>
 

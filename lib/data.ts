@@ -3,7 +3,7 @@ export const site = {
   url: "https://www.assafelovic.com",
   title: "Assaf Elovic",
   description:
-    "I've been building AI agents for over a decade. Creator of GPT Researcher, co-founder of Tavily (acquired by Nebius), now building Ora.",
+    "I've been building AI agents for over a decade. Creator of GPT Researcher, co-founder of Tavily (acquired by Nebius), now building Ora. Angel investor and Sequoia scout.",
   email: "assaf.elovic@gmail.com",
 };
 
