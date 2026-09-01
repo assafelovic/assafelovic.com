@@ -112,27 +112,9 @@ export const projects: Project[] = [
   {
     name: "Tavily",
     href: "https://tavily.com",
-    description: "The search engine for AI agents. Over a million developers.",
+    description:
+      "The search engine for AI agents. Over 5 million users worldwide.",
     meta: "acq. by Nebius",
-  },
-  {
-    name: "Skyll",
-    href: "https://github.com/assafelovic/skyll",
-    description: "Agents that discover and learn skills autonomously.",
-    meta: "★ 247",
-    active: true,
-  },
-  {
-    name: "GPTR MCP",
-    href: "https://github.com/assafelovic/gptr-mcp",
-    description: "Deep research over the Model Context Protocol.",
-    meta: "★ 368",
-  },
-  {
-    name: "Tovana",
-    href: "https://github.com/assafelovic/tovana",
-    description: "Memory management for context-aware agents.",
-    meta: "★ 39",
   },
   {
     name: "Tiv.ai",
@@ -170,7 +152,7 @@ export const timeline: TimelineEntry[] = [
   {
     period: "then",
     title: "Tiv.ai",
-    body: "My own startup: a personal assistant that lived on WhatsApp and helped people get things done. It grew to over 5 million users worldwide.",
+    body: "My own startup: a personal assistant that lived on WhatsApp and helped people get things done. It grew to over 5 million users worldwide. We went through Y Combinator's Startup School in 2019.",
   },
   {
     period: "then",
@@ -197,7 +179,7 @@ export const timeline: TimelineEntry[] = [
   {
     period: "2024",
     title: "Tavily",
-    body: "Co-founded Tavily, a search engine built for AI agents rather than people. It grew to over a million developers and Fortune 500 customers. Nebius acquired it in 2026.",
+    body: "Co-founded Tavily, a search engine built for AI agents rather than people. It grew to over 5 million users worldwide, with Fortune 500 customers. Nebius acquired it in 2026.",
     links: [{ label: "tavily.com", href: "https://tavily.com" }],
   },
   {
