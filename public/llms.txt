@@ -1,0 +1,34 @@
+# Assaf Elovic
+
+> Builder of AI agents since 2015. Creator of GPT Researcher, co-founder of Tavily (acquired by Nebius, 2026), currently building Ora. Sequoia Capital scout investing in early-stage AI startups.
+
+Personal site: https://www.assafelovic.com
+
+## Background
+
+- ServiceFriend (2015): Built conversational agents; company acquired by Facebook. Granted US patent US10303758B2 for real-time automated conversational agents.
+- Tiv.ai: Founder. Consumer productivity assistant on WhatsApp with 5M+ users worldwide.
+- Wix: Built Wix's first AI agent.
+- monday.com: Head of AI.
+- GPT Researcher (2023): Creator. The first open deep research agent, 29k+ GitHub stars, cited by numerous academic papers. https://github.com/assafelovic/gpt-researcher
+- Tavily (2024): Co-founder. The search engine for AI agents, 1M+ developers. Acquired by Nebius in 2026. https://tavily.com
+- Ora (now): Working on how agents can use businesses autonomously. https://ora.ai
+
+## Investing
+
+Scout for Sequoia Capital. Investments include LangChain, Anthropic, Engram Labs, Delphi, PiLabs (acquired by Microsoft), Runhouse (acquired by Anthropic).
+
+## Pages
+
+- [Home](https://www.assafelovic.com/): Intro, selected writing and projects
+- [Writing](https://www.assafelovic.com/writing): Essays on building AI agents and AI products
+- [Projects](https://www.assafelovic.com/projects): Full list of projects and companies
+- [About](https://www.assafelovic.com/about): Full story and timeline
+
+## Contact
+
+- Email: assaf.elovic@gmail.com
+- X: https://x.com/assaf_elovic
+- GitHub: https://github.com/assafelovic
+- LinkedIn: https://www.linkedin.com/in/assafelovic/
+- Medium: https://medium.com/@assafelovic

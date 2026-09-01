@@ -1,0 +1,219 @@
+export const site = {
+  name: "Assaf Elovic",
+  url: "https://www.assafelovic.com",
+  title: "Assaf Elovic — building AI agents since 2015",
+  description:
+    "Creator of GPT Researcher, co-founder of Tavily (acquired by Nebius), now building Ora. Building AI agents and the infrastructure behind them for over a decade.",
+  email: "assaf.elovic@gmail.com",
+};
+
+export const socials = [
+  { label: "github", href: "https://github.com/assafelovic" },
+  { label: "x", href: "https://x.com/assaf_elovic" },
+  { label: "medium", href: "https://medium.com/@assafelovic" },
+  { label: "linkedin", href: "https://www.linkedin.com/in/assafelovic/" },
+  { label: "email", href: "mailto:assaf.elovic@gmail.com" },
+];
+
+export type Post = {
+  title: string;
+  href: string;
+  date: string; // ISO
+  year: string;
+};
+
+export const posts: Post[] = [
+  {
+    title: "The Hidden Metric That Determines AI Product Success",
+    href: "https://medium.com/@assafelovic/the-hidden-metric-that-determines-ai-product-success-799a98fd57aa",
+    date: "2025-06-11",
+    year: "2025",
+  },
+  {
+    title: "Introducing GPT Researcher Deep Research",
+    href: "https://medium.com/@assafelovic/introducing-gpt-researcher-deep-research-the-best-open-source-alternative-7675acdb782b",
+    date: "2025-02-26",
+    year: "2025",
+  },
+  {
+    title: "The Future of AI Driven Research is Here",
+    href: "https://medium.com/@assafelovic/the-future-of-ai-driven-research-is-here-27668b76b632",
+    date: "2024-09-06",
+    year: "2024",
+  },
+  {
+    title: "How to Build the Ultimate AI Automation with Multi-Agent Collaboration",
+    href: "https://medium.com/@assafelovic/how-to-build-the-ultimate-ai-automation-with-multi-agent-collaboration-ed61a1ea8f3b",
+    date: "2024-05-10",
+    year: "2024",
+  },
+  {
+    title: "How to Build an OpenAI Assistant with Internet Browsing",
+    href: "https://medium.com/@assafelovic/how-to-build-an-openai-assistant-with-internet-browsing-ee5ad7625661",
+    date: "2023-11-12",
+    year: "2023",
+  },
+  {
+    title: "How I Built an Autonomous AI Agent for Online Research",
+    href: "https://medium.com/better-programming/how-i-built-an-autonomous-ai-agent-for-online-research-93435a97c6c",
+    date: "2023-07-24",
+    year: "2023",
+  },
+  {
+    title: "Why Open Source Models May Not Win The AI Race",
+    href: "https://pub.towardsai.net/why-open-source-models-may-not-win-the-ai-race-88a3223a1df7",
+    date: "2023-06-21",
+    year: "2023",
+  },
+  {
+    title: "The Ultimate Tech Stack for Building AI Products",
+    href: "https://medium.com/@assafelovic/the-ultimate-tech-stack-for-building-ai-products-497cfa9139cb",
+    date: "2023-06-20",
+    year: "2023",
+  },
+  {
+    title: "Action-Driven LLMs: The Future of Chatbot Development",
+    href: "https://medium.com/better-programming/action-driven-llms-the-future-of-chatbot-development-is-here-80c0d07d278a",
+    date: "2023-02-27",
+    year: "2023",
+  },
+  {
+    title: "Generative AI: The Ultimate Beginner's Guide",
+    href: "https://medium.com/@assafelovic/gpt-3-the-ultimate-beginners-guide-681739cd371d",
+    date: "2022-11-03",
+    year: "2022",
+  },
+];
+
+export type Project = {
+  name: string;
+  href: string;
+  description: string;
+  meta: string;
+  active?: boolean;
+};
+
+export const projects: Project[] = [
+  {
+    name: "Ora",
+    href: "https://ora.ai",
+    description: "Enabling AI agents to use businesses autonomously.",
+    meta: "2026–now",
+    active: true,
+  },
+  {
+    name: "GPT Researcher",
+    href: "https://github.com/assafelovic/gpt-researcher",
+    description:
+      "The OG open deep research agent. Cited by numerous academic papers.",
+    meta: "★ 29k+",
+    active: true,
+  },
+  {
+    name: "Tavily",
+    href: "https://tavily.com",
+    description:
+      "The search engine for AI agents. 1M+ developers.",
+    meta: "acq. by Nebius",
+  },
+  {
+    name: "Skyll",
+    href: "https://github.com/assafelovic/skyll",
+    description: "Agents that discover and learn skills autonomously.",
+    meta: "★ 247",
+    active: true,
+  },
+  {
+    name: "GPTR MCP",
+    href: "https://github.com/assafelovic/gptr-mcp",
+    description: "Deep research over the Model Context Protocol.",
+    meta: "★ 368",
+  },
+  {
+    name: "Tovana",
+    href: "https://github.com/assafelovic/tovana",
+    description: "Memory management for context-aware agents.",
+    meta: "★ 39",
+  },
+  {
+    name: "Tiv.ai",
+    href: "https://www.crunchbase.com/organization/tiv-ai",
+    description: "Consumer productivity assistant on WhatsApp.",
+    meta: "5M+ users",
+  },
+  {
+    name: "ServiceFriend",
+    href: "https://patents.google.com/patent/US10303758B2",
+    description: "Hybrid human–bot customer engagement. US patent granted.",
+    meta: "acq. by Facebook",
+  },
+];
+
+export type TimelineEntry = {
+  period: string;
+  title: string;
+  body: string;
+  links?: { label: string; href: string }[];
+};
+
+export const timeline: TimelineEntry[] = [
+  {
+    period: "2015",
+    title: "ServiceFriend",
+    body: "Started building conversational agents before it was cool — hybrid human–bot messaging systems. Granted a US patent for real-time automated conversational agents. The company was acquired by Facebook.",
+    links: [
+      {
+        label: "US10303758B2",
+        href: "https://patents.google.com/patent/US10303758B2",
+      },
+    ],
+  },
+  {
+    period: "then",
+    title: "Tiv.ai",
+    body: "Founded Tiv.ai, a consumer productivity assistant living on WhatsApp. Grew it to over 5 million users worldwide.",
+  },
+  {
+    period: "then",
+    title: "Wix",
+    body: "Built Wix's first AI agent, bringing conversational AI to tens of millions of small businesses.",
+  },
+  {
+    period: "then",
+    title: "monday.com",
+    body: "Head of AI. Led AI strategy and products for one of the world's largest work platforms.",
+  },
+  {
+    period: "2023",
+    title: "GPT Researcher",
+    body: "Created GPT Researcher, the OG open deep research agent — before \u201cdeep research\u201d was a product category. 29k+ GitHub stars, cited by numerous academic papers.",
+    links: [
+      { label: "github", href: "https://github.com/assafelovic/gpt-researcher" },
+      {
+        label: "scholar",
+        href: "https://scholar.google.com/scholar?q=%22GPT+Researcher%22",
+      },
+    ],
+  },
+  {
+    period: "2024",
+    title: "Tavily",
+    body: "Co-founded Tavily, the search engine built for AI agents. Grew to 1M+ developers and Fortune 500 customers. Acquired by Nebius in 2026 for up to $400M.",
+    links: [{ label: "tavily.com", href: "https://tavily.com" }],
+  },
+  {
+    period: "now",
+    title: "Ora",
+    body: "Working on how agents can use businesses autonomously.",
+    links: [{ label: "ora.ai", href: "https://ora.ai" }],
+  },
+];
+
+export const investments = [
+  { name: "LangChain", note: "" },
+  { name: "Anthropic", note: "" },
+  { name: "Engram Labs", note: "" },
+  { name: "Delphi", note: "" },
+  { name: "PiLabs", note: "acq. by Microsoft" },
+  { name: "Runhouse", note: "acq. by Anthropic" },
+];
