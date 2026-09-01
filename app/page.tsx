@@ -35,7 +35,7 @@ export default function Home() {
           </A>
           , which Meta acquired. Then I founded Tiv.ai, a WhatsApp
           assistant that grew to over 5 million users. Later I built Wix&apos;s
-          first AI agent and led AI at monday.com.
+          first AI agent and led the AI transformation at monday.com.
         </p>
         <p>
           In 2023 I created{" "}

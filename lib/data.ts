@@ -155,7 +155,7 @@ export const timeline: TimelineEntry[] = [
   {
     period: "then",
     title: "monday.com",
-    body: "Head of AI.",
+    body: "Head of AI. Led the AI transformation across the company.",
   },
   {
     period: "2023",

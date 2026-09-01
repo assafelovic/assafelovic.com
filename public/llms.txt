@@ -9,7 +9,7 @@ Personal site: https://www.assafelovic.com
 - ServiceFriend (2015): Built conversational agents; company acquired by Meta. Granted US patent US10303758B2 for real-time automated conversational agents.
 - Tiv.ai: Founder. Consumer productivity assistant on WhatsApp with 5M+ users worldwide. Y Combinator Startup School (2019).
 - Wix: Built Wix's first AI agent.
-- monday.com: Head of AI.
+- monday.com: Head of AI. Led the AI transformation across the company.
 - GPT Researcher (2023): Creator. The first open deep research agent, 29k+ GitHub stars, cited by numerous academic papers. https://github.com/assafelovic/gpt-researcher
 - Tavily (2024): Co-founder. The search engine for AI agents, 5M+ users worldwide. Acquired by Nebius in 2026. https://tavily.com
 - Ora (now): Working on how agents can use businesses autonomously. Backed by Sequoia and Index. https://ora.ai
