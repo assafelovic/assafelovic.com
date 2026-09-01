@@ -24,10 +24,12 @@ export default function Home() {
   return (
     <>
       <p className="mb-5 font-mono text-[15px] text-muted">$ whoami</p>
+      <h1 className="mb-6 text-[30px] font-semibold leading-snug tracking-tight sm:text-[32px]">
+        I like building things that think.
+      </h1>
       <div className="space-y-4 text-[19px] leading-relaxed text-foreground/85">
         <p>
-          I like building things that think. I built my first agent in 2015
-          at{" "}
+          I built my first agent in 2015 at{" "}
           <A href="https://patents.google.com/patent/US10303758B2">
             ServiceFriend
           </A>
