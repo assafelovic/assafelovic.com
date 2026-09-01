@@ -8,7 +8,7 @@ function A({ href, children }: { href: string; children: React.ReactNode }) {
       href={href}
       target="_blank"
       rel="noopener noreferrer"
-      className="font-medium text-foreground underline decoration-muted/60 underline-offset-3 transition-colors hover:decoration-accent"
+      className="font-medium text-foreground underline decoration-muted/60 underline-offset-3 transition-colors hover:decoration-foreground"
     >
       {children}
     </a>
@@ -18,30 +18,29 @@ function A({ href, children }: { href: string; children: React.ReactNode }) {
 export default function Home() {
   return (
     <>
-      <p className="mb-5 font-mono text-[13px] text-muted">
-        <span className="text-accent">$</span> whoami
-      </p>
+      <p className="mb-5 font-mono text-[13px] text-muted">$ whoami</p>
       <h1 className="mb-6 text-[26px] font-semibold leading-snug tracking-tight sm:text-[28px]">
         I&apos;ve been building AI agents for over a decade.
       </h1>
       <div className="space-y-4 text-[16px] leading-relaxed text-foreground/85">
         <p>
-          Long before they were called agents — from{" "}
+          I started in 2015 at{" "}
           <A href="https://patents.google.com/patent/US10303758B2">
             ServiceFriend
-          </A>{" "}
-          (acquired by Facebook) and Tiv.ai, a WhatsApp assistant used by 5M+
-          people, to Wix&apos;s first AI agent and Head of AI at monday.com.
+          </A>
+          , which Facebook acquired. Then I founded Tiv.ai, a WhatsApp
+          assistant that grew to over 5 million users. Later I built Wix&apos;s
+          first AI agent and led AI at monday.com.
         </p>
         <p>
-          I created{" "}
+          In 2023 I created{" "}
           <A href="https://github.com/assafelovic/gpt-researcher">
             GPT Researcher
           </A>
-          , the OG open deep research agent (29k+ stars), and co-founded{" "}
+          , the first open source deep research agent. I then co-founded{" "}
           <A href="https://tavily.com">Tavily</A>, the search engine for AI
-          agents, acquired by Nebius in 2026. Now I&apos;m building{" "}
-          <A href="https://ora.ai">Ora</A> — working on how agents can use
+          agents, which Nebius acquired in 2026. Now I&apos;m building{" "}
+          <A href="https://ora.ai">Ora</A>, working on how agents can use
           businesses autonomously.
         </p>
       </div>
@@ -59,7 +58,7 @@ export default function Home() {
               <span className="w-[4ch] shrink-0 font-mono text-[13px] text-muted">
                 {post.year}
               </span>
-              <span className="text-[15px] font-[450] transition-colors group-hover:text-accent">
+              <span className="text-[15px] font-[450] decoration-muted/60 underline-offset-3 group-hover:underline">
                 {post.title}
               </span>
             </a>
@@ -83,7 +82,7 @@ export default function Home() {
               rel="noopener noreferrer"
               className="group flex items-baseline gap-4 py-2.5"
             >
-              <span className="text-[15px] font-[450] transition-colors group-hover:text-accent">
+              <span className="text-[15px] font-[450] decoration-muted/60 underline-offset-3 group-hover:underline">
                 {project.name}
               </span>
               <span className="ml-auto shrink-0 font-mono text-[12px] text-muted">
@@ -102,9 +101,8 @@ export default function Home() {
 
       <SectionHeading>investing</SectionHeading>
       <p className="text-[15px] leading-relaxed text-foreground/85">
-        I&apos;m a scout for{" "}
-        <span className="font-medium">Sequoia Capital</span>, investing in
-        early-stage AI startups —{" "}
+        I&apos;m also a scout for Sequoia, investing in early stage AI
+        startups. Some investments:{" "}
         {investments.map((inv, i) => (
           <span key={inv.name}>
             {inv.name}

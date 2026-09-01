@@ -1,9 +1,9 @@
 export const site = {
   name: "Assaf Elovic",
   url: "https://www.assafelovic.com",
-  title: "Assaf Elovic — building AI agents since 2015",
+  title: "Assaf Elovic",
   description:
-    "Creator of GPT Researcher, co-founder of Tavily (acquired by Nebius), now building Ora. Building AI agents and the infrastructure behind them for over a decade.",
+    "I've been building AI agents for over a decade. Creator of GPT Researcher, co-founder of Tavily (acquired by Nebius), now building Ora.",
   email: "assaf.elovic@gmail.com",
 };
 
@@ -98,22 +98,21 @@ export const projects: Project[] = [
     name: "Ora",
     href: "https://ora.ai",
     description: "Enabling AI agents to use businesses autonomously.",
-    meta: "2026–now",
+    meta: "2026-now",
     active: true,
   },
   {
     name: "GPT Researcher",
     href: "https://github.com/assafelovic/gpt-researcher",
     description:
-      "The OG open deep research agent. Cited by numerous academic papers.",
+      "The first open source deep research agent. Cited in academic papers.",
     meta: "★ 29k+",
     active: true,
   },
   {
     name: "Tavily",
     href: "https://tavily.com",
-    description:
-      "The search engine for AI agents. 1M+ developers.",
+    description: "The search engine for AI agents. Over a million developers.",
     meta: "acq. by Nebius",
   },
   {
@@ -144,7 +143,7 @@ export const projects: Project[] = [
   {
     name: "ServiceFriend",
     href: "https://patents.google.com/patent/US10303758B2",
-    description: "Hybrid human–bot customer engagement. US patent granted.",
+    description: "Bots and humans answering customers together. US patent granted.",
     meta: "acq. by Facebook",
   },
 ];
@@ -160,7 +159,7 @@ export const timeline: TimelineEntry[] = [
   {
     period: "2015",
     title: "ServiceFriend",
-    body: "Started building conversational agents before it was cool — hybrid human–bot messaging systems. Granted a US patent for real-time automated conversational agents. The company was acquired by Facebook.",
+    body: "Where I started building conversational agents, years before anyone called them that. We built messaging systems where bots and humans worked together, and I was granted a US patent for real-time automated conversational agents. Facebook acquired the company.",
     links: [
       {
         label: "US10303758B2",
@@ -171,22 +170,22 @@ export const timeline: TimelineEntry[] = [
   {
     period: "then",
     title: "Tiv.ai",
-    body: "Founded Tiv.ai, a consumer productivity assistant living on WhatsApp. Grew it to over 5 million users worldwide.",
+    body: "My own startup: a personal assistant that lived on WhatsApp and helped people get things done. It grew to over 5 million users worldwide.",
   },
   {
     period: "then",
     title: "Wix",
-    body: "Built Wix's first AI agent, bringing conversational AI to tens of millions of small businesses.",
+    body: "Built Wix's first AI agent.",
   },
   {
     period: "then",
     title: "monday.com",
-    body: "Head of AI. Led AI strategy and products for one of the world's largest work platforms.",
+    body: "Head of AI.",
   },
   {
     period: "2023",
     title: "GPT Researcher",
-    body: "Created GPT Researcher, the OG open deep research agent — before \u201cdeep research\u201d was a product category. 29k+ GitHub stars, cited by numerous academic papers.",
+    body: "An open source agent that researches any topic online and writes a report with citations. I built it before deep research was a product category. It has 29k stars on GitHub and gets cited in academic papers.",
     links: [
       { label: "github", href: "https://github.com/assafelovic/gpt-researcher" },
       {
@@ -198,7 +197,7 @@ export const timeline: TimelineEntry[] = [
   {
     period: "2024",
     title: "Tavily",
-    body: "Co-founded Tavily, the search engine built for AI agents. Grew to 1M+ developers and Fortune 500 customers. Acquired by Nebius in 2026 for up to $400M.",
+    body: "Co-founded Tavily, a search engine built for AI agents rather than people. It grew to over a million developers and Fortune 500 customers. Nebius acquired it in 2026.",
     links: [{ label: "tavily.com", href: "https://tavily.com" }],
   },
   {

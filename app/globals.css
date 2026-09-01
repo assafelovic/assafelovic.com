@@ -7,7 +7,6 @@
   --foreground: #1c1a17;
   --muted: #857e70;
   --line: #e7e0d2;
-  --accent: #15803d;
 }
 
 .dark {
@@ -15,7 +14,6 @@
   --foreground: #e6e6e6;
   --muted: #8a8a8a;
   --line: #262626;
-  --accent: #4ade80;
 }
 
 @theme inline {
@@ -23,7 +21,6 @@
   --color-foreground: var(--foreground);
   --color-muted: var(--muted);
   --color-line: var(--line);
-  --color-accent: var(--accent);
   --font-sans: var(--font-inter);
   --font-mono: var(--font-jetbrains);
 }
@@ -41,13 +38,13 @@ body {
 }
 
 ::selection {
-  background: var(--accent);
+  background: var(--foreground);
   color: var(--background);
 }
 
 .cursor-blink::after {
   content: "▌";
-  color: var(--accent);
+  color: var(--foreground);
   margin-left: 2px;
   animation: blink 1.2s steps(1) infinite;
 }

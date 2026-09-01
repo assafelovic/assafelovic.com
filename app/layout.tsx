@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   metadataBase: new URL(site.url),
   title: {
     default: site.title,
-    template: "%s — Assaf Elovic",
+    template: "%s · Assaf Elovic",
   },
   description: site.description,
   openGraph: {
@@ -44,7 +44,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body className={`${inter.variable} ${jetbrains.variable}`}>
-        <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
+        <ThemeProvider attribute="class" defaultTheme="light">
           <main className="mx-auto max-w-[660px] px-6 pb-16 pt-14 sm:pt-18">
             <Nav />
             {children}

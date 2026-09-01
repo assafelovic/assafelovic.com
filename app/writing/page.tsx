@@ -12,15 +12,13 @@ export default function Writing() {
 
   return (
     <>
-      <p className="mb-5 font-mono text-[13px] text-muted">
-        <span className="text-accent">$</span> ls writing/
-      </p>
+      <p className="mb-5 font-mono text-[13px] text-muted">$ ls writing/</p>
       <h1 className="mb-6 text-[26px] font-semibold leading-snug tracking-tight">
         Writing
       </h1>
       <p className="mb-10 text-[16px] leading-relaxed text-foreground/85">
-        Essays on building AI agents and products people actually use. Written
-        along the way — from the chatbot era to deep research agents.
+        I write about building AI products and agents. I&apos;ve been doing it
+        since the chatbot days, so some of these have aged better than others.
       </p>
 
       {years.map((year, idx) => (
@@ -28,8 +26,7 @@ export default function Writing() {
           <h2
             className={`mb-2 font-mono text-[12px] font-medium uppercase tracking-[0.14em] text-muted ${idx === 0 ? "" : "mt-10"}`}
           >
-            <span className="text-accent">## </span>
-            {year}
+            ## {year}
           </h2>
           <ul>
             {posts
@@ -47,7 +44,7 @@ export default function Writing() {
                         month: "short",
                       })}
                     </span>
-                    <span className="text-[15px] font-[450] transition-colors group-hover:text-accent">
+                    <span className="text-[15px] font-[450] decoration-muted/60 underline-offset-3 group-hover:underline">
                       {post.title}
                     </span>
                   </a>

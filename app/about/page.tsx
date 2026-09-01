@@ -11,21 +11,20 @@ export const metadata: Metadata = {
 export default function About() {
   return (
     <>
-      <p className="mb-5 font-mono text-[13px] text-muted">
-        <span className="text-accent">$</span> cat about.md
-      </p>
+      <p className="mb-5 font-mono text-[13px] text-muted">$ cat about.md</p>
       <h1 className="mb-6 text-[26px] font-semibold leading-snug tracking-tight">
         About
       </h1>
       <div className="space-y-4 text-[16px] leading-relaxed text-foreground/85">
         <p>
-          I&apos;m Assaf. I&apos;ve spent the last decade building AI agents —
-          starting years before the term existed, back when we called them
-          bots and everyone asked why.
+          I&apos;m Assaf. I&apos;ve been building AI agents for over a decade,
+          since before anyone called them agents. Back then we called them
+          bots, and people asked why.
         </p>
         <p>
-          The thread through all of it: making machines genuinely useful to
-          people, and lately, making the web genuinely usable by machines.
+          Most of my work comes down to one idea: making machines useful to
+          people. Lately it&apos;s the reverse too, making the web usable by
+          machines.
         </p>
       </div>
 
@@ -49,7 +48,7 @@ export default function About() {
                       href={link.href}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="font-mono text-[12px] text-accent transition-opacity hover:opacity-70"
+                      className="font-mono text-[12px] text-muted underline decoration-muted/40 underline-offset-3 transition-colors hover:text-foreground"
                     >
                       {link.label} ↗
                     </a>
@@ -63,8 +62,8 @@ export default function About() {
 
       <SectionHeading>investing</SectionHeading>
       <p className="text-[15px] leading-relaxed text-foreground/85">
-        I&apos;m a scout for Sequoia Capital, backing early-stage AI startups.
-        Investments include{" "}
+        I&apos;m also a scout for Sequoia, investing in early stage AI
+        startups. Some investments:{" "}
         {investments.map((inv, i) => (
           <span key={inv.name}>
             {inv.name}
@@ -84,7 +83,7 @@ export default function About() {
         The fastest way to reach me is{" "}
         <a
           href={`mailto:${site.email}`}
-          className="font-medium underline decoration-muted/60 underline-offset-3 transition-colors hover:decoration-accent"
+          className="font-medium underline decoration-muted/60 underline-offset-3 transition-colors hover:decoration-foreground"
         >
           email
         </a>{" "}
@@ -93,7 +92,7 @@ export default function About() {
           href="https://x.com/assaf_elovic"
           target="_blank"
           rel="noopener noreferrer"
-          className="font-medium underline decoration-muted/60 underline-offset-3 transition-colors hover:decoration-accent"
+          className="font-medium underline decoration-muted/60 underline-offset-3 transition-colors hover:decoration-foreground"
         >
           X
         </a>

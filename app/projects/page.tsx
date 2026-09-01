@@ -10,15 +10,13 @@ export const metadata: Metadata = {
 export default function Projects() {
   return (
     <>
-      <p className="mb-5 font-mono text-[13px] text-muted">
-        <span className="text-accent">$</span> ls projects/
-      </p>
+      <p className="mb-5 font-mono text-[13px] text-muted">$ ls projects/</p>
       <h1 className="mb-6 text-[26px] font-semibold leading-snug tracking-tight">
         Projects
       </h1>
       <p className="mb-10 text-[16px] leading-relaxed text-foreground/85">
-        A decade of building agents — open source, startups, and a couple of
-        acquisitions along the way.
+        Things I&apos;ve built over the past decade. Some open source, some
+        startups. A few got acquired.
       </p>
 
       <ul>
@@ -31,14 +29,8 @@ export default function Projects() {
               className="group block py-4"
             >
               <span className="flex items-baseline gap-4">
-                <span className="text-[16px] font-medium transition-colors group-hover:text-accent">
+                <span className="text-[16px] font-medium decoration-muted/60 underline-offset-3 group-hover:underline">
                   {project.name}
-                  {project.active && (
-                    <span
-                      className="ml-2 inline-block h-[7px] w-[7px] rounded-full bg-accent align-baseline"
-                      title="active"
-                    />
-                  )}
                 </span>
                 <span className="ml-auto shrink-0 font-mono text-[12px] text-muted">
                   {project.meta}
