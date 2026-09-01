@@ -119,7 +119,7 @@ export const projects: Project[] = [
     name: "ServiceFriend",
     href: "https://patents.google.com/patent/US10303758B2",
     description: "Bots and humans answering customers together. US patent granted.",
-    meta: "acq. by Facebook",
+    meta: "acq. by Meta",
   },
 ];
 
@@ -134,7 +134,7 @@ export const timeline: TimelineEntry[] = [
   {
     period: "2015",
     title: "ServiceFriend",
-    body: "Where I started building conversational agents, years before anyone called them that. We built messaging systems where bots and humans worked together, and I was granted a US patent for real-time automated conversational agents. Facebook acquired the company.",
+    body: "Where I started building conversational agents, years before anyone called them that. We built messaging systems where bots and humans worked together, and I was granted a US patent for real-time automated conversational agents. Meta acquired the company.",
     links: [
       {
         label: "US10303758B2",

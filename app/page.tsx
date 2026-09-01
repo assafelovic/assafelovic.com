@@ -33,7 +33,7 @@ export default function Home() {
           <A href="https://patents.google.com/patent/US10303758B2">
             ServiceFriend
           </A>
-          , which Facebook acquired. Then I founded Tiv.ai, a WhatsApp
+          , which Meta acquired. Then I founded Tiv.ai, a WhatsApp
           assistant that grew to over 5 million users. Later I built Wix&apos;s
           first AI agent and led AI at monday.com.
         </p>

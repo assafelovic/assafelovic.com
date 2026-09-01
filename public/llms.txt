@@ -6,7 +6,7 @@ Personal site: https://www.assafelovic.com
 
 ## Background
 
-- ServiceFriend (2015): Built conversational agents; company acquired by Facebook. Granted US patent US10303758B2 for real-time automated conversational agents.
+- ServiceFriend (2015): Built conversational agents; company acquired by Meta. Granted US patent US10303758B2 for real-time automated conversational agents.
 - Tiv.ai: Founder. Consumer productivity assistant on WhatsApp with 5M+ users worldwide. Y Combinator Startup School (2019).
 - Wix: Built Wix's first AI agent.
 - monday.com: Head of AI.
