@@ -106,7 +106,7 @@ export const projects: Project[] = [
     name: "Tavily",
     href: "https://tavily.com",
     description:
-      "The search engine for AI agents. Over 5 million users worldwide.",
+      "The search engine for AI agents. Over a million developers worldwide.",
     meta: "acq. by Nebius",
   },
   {
@@ -172,7 +172,7 @@ export const timeline: TimelineEntry[] = [
   {
     period: "2024",
     title: "Tavily",
-    body: "Co-founded Tavily, a search engine built for AI agents rather than people. It grew to over 5 million users worldwide, with Fortune 500 customers. Nebius acquired it in 2026.",
+    body: "Co-founded Tavily, a search engine built for AI agents rather than people. It grew to over a million developers worldwide, with Fortune 500 customers. Nebius acquired it in 2026.",
     links: [{ label: "tavily.com", href: "https://tavily.com" }],
   },
   {
