@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { SectionHeading } from "@/components/section-heading";
-import { posts, investments } from "@/lib/data";
+import { posts, investments, site } from "@/lib/data";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/" },
@@ -73,7 +73,15 @@ export default function Home() {
             )}
             {i < investments.length - 1 ? ", " : "."}
           </span>
-        ))}
+        ))}{" "}
+        If you&apos;re working on something exciting,{" "}
+        <a
+          href={`mailto:${site.email}`}
+          className="font-medium text-foreground underline decoration-muted/60 underline-offset-3 transition-colors hover:decoration-foreground"
+        >
+          reach out
+        </a>
+        .
       </p>
 
       <SectionHeading>writing</SectionHeading>
