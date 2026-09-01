@@ -145,7 +145,7 @@ export const timeline: TimelineEntry[] = [
   {
     period: "then",
     title: "Tiv.ai",
-    body: "My own startup: a personal assistant that lived on WhatsApp and helped people get things done. It grew to over 5 million users worldwide. We went through Y Combinator's Startup School in 2019.",
+    body: "My first startup: a personal assistant that lived on WhatsApp and helped people get things done. It grew to over 5 million users worldwide. We went through Y Combinator's Startup School in 2019.",
   },
   {
     period: "then",
