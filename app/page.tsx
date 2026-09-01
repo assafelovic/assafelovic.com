@@ -91,6 +91,13 @@ export default function Home() {
           </li>
         ))}
       </ul>
+      <Link
+        href="/about"
+        className="mt-4 inline-block font-mono text-[15px] text-muted transition-colors hover:text-foreground"
+      >
+        the full story →
+      </Link>
+
       <SectionHeading>writing</SectionHeading>
       <ul>
         {posts.slice(0, 5).map((post) => (
