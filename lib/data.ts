@@ -150,12 +150,12 @@ export const timeline: TimelineEntry[] = [
   {
     period: "then",
     title: "Wix",
-    body: "Built Wix's first AI agent.",
+    body: "Head of R&D for customer care. I came to build Wix's first AI agent, the chatbot supporting all Wix users, and grew the team from zero to 60 engineers across nine teams. Then LLMs arrived and disrupted everything we'd built, so we rebuilt around them.",
   },
   {
     period: "then",
     title: "monday.com",
-    body: "Head of AI. Led the AI transformation across the company.",
+    body: "Head of AI. Led the AI transformation across a company that runs a billion work tasks a year: launched AI Blocks, then a digital workforce of agents working inside boards. AI usage grew 100% month over month.",
   },
   {
     period: "2023",
