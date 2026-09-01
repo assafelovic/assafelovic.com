@@ -20,6 +20,7 @@ export type Post = {
   href: string;
   date: string; // ISO
   year: string;
+  slug?: string; // set when the post is hosted on this site
 };
 
 export const posts: Post[] = [
@@ -28,6 +29,7 @@ export const posts: Post[] = [
     href: "https://medium.com/@assafelovic/the-hidden-metric-that-determines-ai-product-success-799a98fd57aa",
     date: "2025-06-11",
     year: "2025",
+    slug: "the-hidden-metric-that-determines-ai-product-success",
   },
   {
     title: "Introducing GPT Researcher Deep Research",

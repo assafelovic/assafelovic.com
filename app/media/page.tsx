@@ -82,15 +82,11 @@ export default function Media() {
 
   return (
     <>
-      <p className="mb-5 font-mono text-[14px] text-muted">
-        $ tavily search &quot;assaf elovic&quot;
-      </p>
       <h1 className="mb-6 text-[30px] font-semibold leading-snug tracking-tight">
         Around the web
       </h1>
-      <p className="mb-3 text-[17px] leading-relaxed text-foreground/85">
-        Talks and press that mention me. I didn&apos;t curate this list, an
-        agent pulled it from the web. Fitting, I think.
+      <p className="mb-5 font-mono text-[14px] text-muted">
+        $ tavily search &quot;assaf elovic&quot;
       </p>
       <p className="mb-10 font-mono text-[13px] text-muted">
         {total} results (0.38s)

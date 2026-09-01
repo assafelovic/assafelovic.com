@@ -35,9 +35,9 @@ export default function Writing() {
               .map((post) => (
                 <li key={post.href} className="border-b border-line">
                   <a
-                    href={post.href}
-                    target="_blank"
-                    rel="noopener noreferrer"
+                    href={post.slug ? `/writing/${post.slug}` : post.href}
+                    target={post.slug ? undefined : "_blank"}
+                    rel={post.slug ? undefined : "noopener noreferrer"}
                     className="group flex items-baseline gap-4 py-2.5"
                   >
                     <span className="w-[6ch] shrink-0 font-mono text-[15px] text-muted">

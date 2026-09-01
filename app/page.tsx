@@ -73,7 +73,7 @@ export default function Home() {
 
       <SectionHeading>projects</SectionHeading>
       <ul>
-        {projects.slice(0, 4).map((project) => (
+        {projects.map((project) => (
           <li key={project.name} className="border-b border-line">
             <a
               href={project.href}
@@ -91,21 +91,14 @@ export default function Home() {
           </li>
         ))}
       </ul>
-      <Link
-        href="/projects"
-        className="mt-4 inline-block font-mono text-[15px] text-muted transition-colors hover:text-foreground"
-      >
-        all projects →
-      </Link>
-
       <SectionHeading>writing</SectionHeading>
       <ul>
         {posts.slice(0, 5).map((post) => (
           <li key={post.href} className="border-b border-line">
             <a
-              href={post.href}
-              target="_blank"
-              rel="noopener noreferrer"
+              href={post.slug ? `/writing/${post.slug}` : post.href}
+              target={post.slug ? undefined : "_blank"}
+              rel={post.slug ? undefined : "noopener noreferrer"}
               className="group flex items-baseline gap-4 py-2.5"
             >
               <span className="w-[4ch] shrink-0 font-mono text-[15px] text-muted">

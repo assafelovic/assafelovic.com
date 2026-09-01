@@ -60,3 +60,17 @@ body {
     animation: none;
   }
 }
+
+/* image captions: an <em> inside a paragraph that holds an image */
+.post-body p:has(> img) {
+  margin-bottom: 1.5rem;
+}
+
+.post-body p:has(> img) em {
+  display: block;
+  margin-top: 0.35rem;
+  font-size: 14px;
+  font-style: normal;
+  color: var(--muted);
+  text-align: center;
+}
