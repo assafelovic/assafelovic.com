@@ -5,6 +5,7 @@ export const metadata: Metadata = {
   title: "Projects",
   description:
     "A decade of AI agents: GPT Researcher, Tavily, Ora, and everything before.",
+  alternates: { canonical: "/projects" },
 };
 
 export default function Projects() {

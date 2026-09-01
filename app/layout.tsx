@@ -16,6 +16,22 @@ const jetbrains = JetBrains_Mono({
   subsets: ["latin"],
 });
 
+const personJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Person",
+  name: "Assaf Elovic",
+  url: site.url,
+  description: site.description,
+  jobTitle: "Founder",
+  worksFor: { "@type": "Organization", name: "Ora" },
+  sameAs: [
+    "https://github.com/assafelovic",
+    "https://x.com/assaf_elovic",
+    "https://www.linkedin.com/in/assafelovic/",
+    "https://medium.com/@assafelovic",
+  ],
+};
+
 export const metadata: Metadata = {
   metadataBase: new URL(site.url),
   title: {
@@ -23,6 +39,8 @@ export const metadata: Metadata = {
     template: "%s · Assaf Elovic",
   },
   description: site.description,
+  authors: [{ name: "Assaf Elovic", url: site.url }],
+  creator: "Assaf Elovic",
   openGraph: {
     title: site.title,
     description: site.description,
@@ -44,6 +62,10 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body className={`${inter.variable} ${jetbrains.variable}`}>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(personJsonLd) }}
+        />
         <ThemeProvider attribute="class" defaultTheme="light">
           <main className="mx-auto max-w-[720px] px-5 pb-16 pt-12 sm:px-6 sm:pt-18">
             <Nav />

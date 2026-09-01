@@ -6,6 +6,7 @@ export const metadata: Metadata = {
   title: "About",
   description:
     "Building AI agents since 2015: ServiceFriend, Tiv.ai, Wix, monday.com, GPT Researcher, Tavily, and now Ora.",
+  alternates: { canonical: "/about" },
 };
 
 export default function About() {

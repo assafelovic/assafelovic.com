@@ -5,6 +5,7 @@ export const metadata: Metadata = {
   title: "Writing",
   description:
     "Essays on building AI agents and AI products people actually use.",
+  alternates: { canonical: "/writing" },
 };
 
 export default function Writing() {

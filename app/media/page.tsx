@@ -5,6 +5,7 @@ import type { MediaItem } from "@/lib/data";
 export const metadata: Metadata = {
   title: "Media",
   description: "Talks, interviews, and press from around the web.",
+  alternates: { canonical: "/media" },
 };
 
 function youtubeId(href: string): string | null {
