@@ -260,10 +260,10 @@ export const press: MediaItem[] = [
 ];
 
 export const investments = [
-  { name: "LangChain", href: "https://www.langchain.com", note: "" },
-  { name: "Anthropic", href: "https://www.anthropic.com", note: "" },
-  { name: "Engram Labs", href: "https://engram.com", note: "" },
-  { name: "Delphi", href: "https://www.delphi.ai", note: "" },
-  { name: "PiLabs", href: "https://withpi.ai", note: "acq. by Microsoft" },
-  { name: "Runhouse", href: "https://www.run.house", note: "acq. by Anthropic" },
+  { name: "LangChain", note: "" },
+  { name: "Anthropic", note: "" },
+  { name: "Engram Labs", note: "" },
+  { name: "Delphi", note: "" },
+  { name: "PiLabs", note: "acq. by Microsoft" },
+  { name: "Runhouse", note: "acq. by Anthropic" },
 ];
