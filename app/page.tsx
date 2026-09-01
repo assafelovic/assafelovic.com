@@ -49,32 +49,22 @@ export default function Home() {
         </p>
       </div>
 
-      <SectionHeading>writing</SectionHeading>
-      <ul>
-        {posts.slice(0, 5).map((post) => (
-          <li key={post.href} className="border-b border-line">
-            <a
-              href={post.href}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="group flex items-baseline gap-4 py-2.5"
-            >
-              <span className="w-[4ch] shrink-0 font-mono text-[15px] text-muted">
-                {post.year}
+      <SectionHeading>investing</SectionHeading>
+      <p className="text-[17px] leading-relaxed text-foreground/85">
+        Early stage AI startups I&apos;ve backed:{" "}
+        {investments.map((inv, i) => (
+          <span key={inv.name}>
+            {inv.name}
+            {inv.note && (
+              <span className="font-mono text-[14px] text-muted">
+                {" "}
+                ({inv.note})
               </span>
-              <span className="text-[17px] font-[450] decoration-muted/60 underline-offset-3 group-hover:underline">
-                {post.title}
-              </span>
-            </a>
-          </li>
+            )}
+            {i < investments.length - 1 ? ", " : "."}
+          </span>
         ))}
-      </ul>
-      <Link
-        href="/writing"
-        className="mt-4 inline-block font-mono text-[15px] text-muted transition-colors hover:text-foreground"
-      >
-        all writing →
-      </Link>
+      </p>
 
       <SectionHeading>projects</SectionHeading>
       <ul>
@@ -103,23 +93,32 @@ export default function Home() {
         all projects →
       </Link>
 
-      <SectionHeading>investing</SectionHeading>
-      <p className="text-[17px] leading-relaxed text-foreground/85">
-        I&apos;m also a scout for Sequoia, investing in early stage AI
-        startups. Some investments:{" "}
-        {investments.map((inv, i) => (
-          <span key={inv.name}>
-            {inv.name}
-            {inv.note && (
-              <span className="font-mono text-[14px] text-muted">
-                {" "}
-                ({inv.note})
+      <SectionHeading>writing</SectionHeading>
+      <ul>
+        {posts.slice(0, 5).map((post) => (
+          <li key={post.href} className="border-b border-line">
+            <a
+              href={post.href}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group flex items-baseline gap-4 py-2.5"
+            >
+              <span className="w-[4ch] shrink-0 font-mono text-[15px] text-muted">
+                {post.year}
               </span>
-            )}
-            {i < investments.length - 1 ? ", " : "."}
-          </span>
+              <span className="text-[17px] font-[450] decoration-muted/60 underline-offset-3 group-hover:underline">
+                {post.title}
+              </span>
+            </a>
+          </li>
         ))}
-      </p>
+      </ul>
+      <Link
+        href="/writing"
+        className="mt-4 inline-block font-mono text-[15px] text-muted transition-colors hover:text-foreground"
+      >
+        all writing →
+      </Link>
     </>
   );
 }
