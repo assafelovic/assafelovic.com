@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { SectionHeading } from "@/components/section-heading";
+import { SocialIcons } from "@/components/social-icons";
 import { timeline, investments, site } from "@/lib/data";
 
 export const metadata: Metadata = {
@@ -32,6 +33,7 @@ export default function About() {
           angel invest in early stage AI startups as a scout for Sequoia.
         </p>
       </div>
+      <SocialIcons />
 
       <SectionHeading>the story so far</SectionHeading>
       <ol className="space-y-6">

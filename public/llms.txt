@@ -31,3 +31,4 @@ Scout for Sequoia Capital. Investments include LangChain, Anthropic, Engram Labs
 - X: https://x.com/assaf_elovic
 - GitHub: https://github.com/assafelovic
 - LinkedIn: https://www.linkedin.com/in/assafelovic/
+- Medium: https://medium.com/@assafelovic

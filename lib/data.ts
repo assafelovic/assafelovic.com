@@ -11,7 +11,10 @@ export const socials = [
   { label: "github", href: "https://github.com/assafelovic" },
   { label: "x", href: "https://x.com/assaf_elovic" },
   { label: "linkedin", href: "https://www.linkedin.com/in/assafelovic/" },
-];
+  { label: "medium", href: "https://medium.com/@assafelovic" },
+] as const;
+
+export type Social = (typeof socials)[number];
 
 export type Post = {
   title: string;
