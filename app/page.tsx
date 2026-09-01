@@ -43,9 +43,9 @@ export default function Home() {
         </p>
         <p>
           Now I&apos;m building <A href="https://ora.ai">Ora</A>, working on
-          how agents can use businesses autonomously. It&apos;s still in
-          stealth, backed by Sequoia and Index. I also angel invest in early
-          stage AI startups as a scout for Sequoia.
+          how agents can use businesses autonomously, backed by Sequoia and
+          Index. I also angel invest in early stage AI startups as a scout for
+          Sequoia.
         </p>
       </div>
 

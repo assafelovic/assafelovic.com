@@ -12,7 +12,7 @@ Personal site: https://www.assafelovic.com
 - monday.com: Head of AI.
 - GPT Researcher (2023): Creator. The first open deep research agent, 29k+ GitHub stars, cited by numerous academic papers. https://github.com/assafelovic/gpt-researcher
 - Tavily (2024): Co-founder. The search engine for AI agents, 5M+ users worldwide. Acquired by Nebius in 2026. https://tavily.com
-- Ora (now): Working on how agents can use businesses autonomously. In stealth, backed by Sequoia and Index. https://ora.ai
+- Ora (now): Working on how agents can use businesses autonomously. Backed by Sequoia and Index. https://ora.ai
 
 ## Investing
 
