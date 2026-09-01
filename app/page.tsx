@@ -39,11 +39,13 @@ export default function Home() {
           </A>
           , the first open source deep research agent. I then co-founded{" "}
           <A href="https://tavily.com">Tavily</A>, the search engine for AI
-          agents, which Nebius acquired in 2026. Now I&apos;m building{" "}
-          <A href="https://ora.ai">Ora</A>, working on how agents can use
-          businesses autonomously. It&apos;s still in stealth, backed by
-          Sequoia and Index. I also angel invest in early stage AI startups as
-          a scout for Sequoia.
+          agents, which Nebius acquired in 2026.
+        </p>
+        <p>
+          Now I&apos;m building <A href="https://ora.ai">Ora</A>, working on
+          how agents can use businesses autonomously. It&apos;s still in
+          stealth, backed by Sequoia and Index. I also angel invest in early
+          stage AI startups as a scout for Sequoia.
         </p>
       </div>
 

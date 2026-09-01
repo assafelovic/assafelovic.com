@@ -7,6 +7,48 @@ export const metadata: Metadata = {
   description: "Talks, interviews, and press from around the web.",
 };
 
+function youtubeId(href: string): string | null {
+  return new URL(href).searchParams.get("v");
+}
+
+function VideoList({ items }: { items: MediaItem[] }) {
+  return (
+    <ul>
+      {items.map((item) => {
+        const id = youtubeId(item.href);
+        return (
+          <li key={item.href} className="border-b border-line">
+            <a
+              href={item.href}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group flex items-center gap-5 py-3.5"
+            >
+              {id && (
+                // eslint-disable-next-line @next/next/no-img-element
+                <img
+                  src={`https://i.ytimg.com/vi/${id}/mqdefault.jpg`}
+                  alt=""
+                  loading="lazy"
+                  className="w-28 shrink-0 rounded-[3px] border border-line object-cover aspect-video"
+                />
+              )}
+              <span>
+                <span className="block text-[16px] font-[450] leading-snug decoration-muted/60 underline-offset-3 group-hover:underline">
+                  {item.title}
+                </span>
+                <span className="mt-1 block font-mono text-[13px] text-muted">
+                  {item.year} · {item.source}
+                </span>
+              </span>
+            </a>
+          </li>
+        );
+      })}
+    </ul>
+  );
+}
+
 function ResultList({ items }: { items: MediaItem[] }) {
   return (
     <ul>
@@ -56,7 +98,7 @@ export default function Media() {
       <h2 className="mb-2 font-mono text-[14px] font-medium uppercase tracking-[0.14em] text-muted">
         ## videos
       </h2>
-      <ResultList items={videos} />
+      <VideoList items={videos} />
 
       <h2 className="mb-2 mt-10 font-mono text-[14px] font-medium uppercase tracking-[0.14em] text-muted">
         ## press
