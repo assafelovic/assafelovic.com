@@ -61,16 +61,6 @@ export default function OpengraphImage() {
         </div>
         <div
           style={{
-            fontSize: 26,
-            color: "#857e70",
-            marginTop: 20,
-            display: "flex",
-          }}
-        >
-          GPT Researcher · Tavily (acq. Nebius) · Ora · Sequoia scout
-        </div>
-        <div
-          style={{
             position: "absolute",
             bottom: 60,
             left: 80,
