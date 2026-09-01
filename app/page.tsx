@@ -24,18 +24,16 @@ export default function Home() {
   return (
     <>
       <p className="mb-5 font-mono text-[15px] text-muted">$ whoami</p>
-      <h1 className="mb-6 text-[30px] font-semibold leading-snug tracking-tight sm:text-[32px]">
-        I like building things that think.
-      </h1>
       <div className="space-y-4 text-[19px] leading-relaxed text-foreground/85">
         <p>
-          I started in 2015 at{" "}
+          I like building things that think. I built my first agent in 2015
+          at{" "}
           <A href="https://patents.google.com/patent/US10303758B2">
             ServiceFriend
           </A>
           , which Meta acquired. Then I founded Tiv.ai, a WhatsApp
           assistant that grew to over 5 million users. Later I built Wix&apos;s
-          first AI agent and led the AI transformation at monday.com.
+          first AI agent and led AI at monday.com.
         </p>
         <p>
           In 2023 I created{" "}
@@ -48,8 +46,7 @@ export default function Home() {
         </p>
         <p>
           Now I&apos;m building <A href="https://ora.ai">Ora</A>, working on
-          how agents can use businesses autonomously, backed by Sequoia and
-          Index.
+          how agents can use businesses autonomously.
         </p>
       </div>
       <Link
@@ -65,7 +62,7 @@ export default function Home() {
         startups. Some investments:{" "}
         {investments.map((inv, i) => (
           <span key={inv.name}>
-            {inv.name}
+            <A href={inv.href}>{inv.name}</A>
             {inv.note && (
               <span className="font-mono text-[14px] text-muted">
                 {" "}
@@ -79,7 +76,7 @@ export default function Home() {
 
       <SectionHeading>writing</SectionHeading>
       <ul>
-        {posts.slice(0, 5).map((post) => (
+        {posts.filter((post) => post.featured).map((post) => (
           <li key={post.slug} className="border-b border-line">
             <a
               href={`/writing/${post.slug}`}

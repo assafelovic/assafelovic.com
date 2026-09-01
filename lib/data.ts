@@ -18,6 +18,7 @@ export type Post = {
   slug: string; // hosted on this site at /writing/[slug]
   date: string; // ISO
   year: string;
+  featured?: boolean;
 };
 
 export const posts: Post[] = [
@@ -26,18 +27,21 @@ export const posts: Post[] = [
     slug: "the-hidden-metric-that-determines-ai-product-success",
     date: "2025-06-11",
     year: "2025",
+    featured: true,
   },
   {
     title: "You are Doing Research Wrong",
     slug: "you-are-doing-research-wrong",
     date: "2024-09-06",
     year: "2024",
+    featured: true,
   },
   {
     title: "How I Built an Autonomous AI Agent for Online Research",
     slug: "how-i-built-an-autonomous-ai-agent-for-online-research",
     date: "2023-07-24",
     year: "2023",
+    featured: true,
   },
   {
     title: "Why Open Source Models May Not Win The AI Race",
@@ -56,6 +60,7 @@ export const posts: Post[] = [
     slug: "how-to-evaluate-startup-ideas",
     date: "2019-10-06",
     year: "2019",
+    featured: true,
   },
   {
     title: "What I've Learned as VP at a Large Startup",
@@ -68,12 +73,14 @@ export const posts: Post[] = [
     slug: "how-my-startup-grew-by-over-1m-users-in-one-month",
     date: "2018-06-09",
     year: "2018",
+    featured: true,
   },
   {
     title: "Bots Are Here to Stay. Here Are 4 Reasons Why",
     slug: "bots-are-here-to-stay-here-are-4-reasons-why",
     date: "2017-09-08",
     year: "2017",
+    featured: true,
   },
 ];
 
@@ -253,10 +260,10 @@ export const press: MediaItem[] = [
 ];
 
 export const investments = [
-  { name: "LangChain", note: "" },
-  { name: "Anthropic", note: "" },
-  { name: "Engram Labs", note: "" },
-  { name: "Delphi", note: "" },
-  { name: "PiLabs", note: "acq. by Microsoft" },
-  { name: "Runhouse", note: "acq. by Anthropic" },
+  { name: "LangChain", href: "https://www.langchain.com", note: "" },
+  { name: "Anthropic", href: "https://www.anthropic.com", note: "" },
+  { name: "Engram Labs", href: "https://engram.com", note: "" },
+  { name: "Delphi", href: "https://www.delphi.ai", note: "" },
+  { name: "PiLabs", href: "https://withpi.ai", note: "acq. by Microsoft" },
+  { name: "Runhouse", href: "https://www.run.house", note: "acq. by Anthropic" },
 ];

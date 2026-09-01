@@ -71,7 +71,14 @@ export default function About() {
         startups. Some investments:{" "}
         {investments.map((inv, i) => (
           <span key={inv.name}>
-            {inv.name}
+            <a
+              href={inv.href}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-medium underline decoration-muted/60 underline-offset-3 transition-colors hover:decoration-foreground"
+            >
+              {inv.name}
+            </a>
             {inv.note && (
               <span className="font-mono text-[14px] text-muted">
                 {" "}
