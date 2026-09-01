@@ -44,14 +44,14 @@ export default function Home() {
         <p>
           Now I&apos;m building <A href="https://ora.ai">Ora</A>, working on
           how agents can use businesses autonomously, backed by Sequoia and
-          Index. I also angel invest in early stage AI startups as a scout for
-          Sequoia.
+          Index.
         </p>
       </div>
 
       <SectionHeading>investing</SectionHeading>
       <p className="text-[17px] leading-relaxed text-foreground/85">
-        Early stage AI startups I&apos;ve backed:{" "}
+        I&apos;m also a scout for Sequoia, angel investing in early stage AI
+        startups. Some investments:{" "}
         {investments.map((inv, i) => (
           <span key={inv.name}>
             {inv.name}
