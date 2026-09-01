@@ -89,7 +89,7 @@ export default function Media() {
         Talks I&apos;ve given and press about things I&apos;ve built, from
         around the web.
       </p>
-      <div className="mb-10 rounded-md border border-line bg-foreground/[0.03] px-4 py-3 font-mono text-[14px]">
+      <div className="mb-10 font-mono text-[14px]">
         <p className="text-foreground/80">
           $ tavily search &quot;assaf elovic&quot;
         </p>
