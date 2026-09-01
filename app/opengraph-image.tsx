@@ -1,6 +1,6 @@
 import { ImageResponse } from "next/og";
 
-export const alt = "Assaf Elovic - building AI agents for over a decade";
+export const alt = "Assaf Elovic - I like building things that think";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
@@ -57,7 +57,7 @@ export default function OpengraphImage() {
             display: "flex",
           }}
         >
-          Building AI agents for over a decade.
+          I like building things that think.
         </div>
         <div
           style={{

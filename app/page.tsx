@@ -25,7 +25,7 @@ export default function Home() {
     <>
       <p className="mb-5 font-mono text-[15px] text-muted">$ whoami</p>
       <h1 className="mb-6 text-[30px] font-semibold leading-snug tracking-tight sm:text-[32px]">
-        I&apos;ve been building AI agents for over a decade.
+        I like building things that think.
       </h1>
       <div className="space-y-4 text-[19px] leading-relaxed text-foreground/85">
         <p>

@@ -18,7 +18,7 @@ export default function About() {
       </h1>
       <div className="space-y-4 text-[19px] leading-relaxed text-foreground/85">
         <p>
-          I&apos;m Assaf. I&apos;ve been building AI agents for over a decade,
+          I&apos;m Assaf. I&apos;ve been building AI agents since 2015,
           since before anyone called them agents. Back then we called them
           bots, and people asked why.
         </p>
