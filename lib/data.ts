@@ -34,7 +34,6 @@ export const posts: Post[] = [
     slug: "you-are-doing-research-wrong",
     date: "2024-09-06",
     year: "2024",
-    featured: true,
   },
   {
     title: "How I Built an Autonomous AI Agent for Online Research",
@@ -48,6 +47,7 @@ export const posts: Post[] = [
     slug: "why-open-source-models-may-not-win-the-ai-race",
     date: "2023-06-22",
     year: "2023",
+    featured: true,
   },
   {
     title: "Action-Driven LLMs: The Future of Chatbot Development",
