@@ -9,12 +9,12 @@ export function Footer() {
           href={s.href}
           target="_blank"
           rel="noopener noreferrer"
-          className="font-mono text-[13px] text-muted transition-colors hover:text-foreground"
+          className="font-mono text-[15px] text-muted transition-colors hover:text-foreground"
         >
           {s.label}
         </a>
       ))}
-      <span className="ml-auto font-mono text-[12px] text-muted">
+      <span className="ml-auto font-mono text-[14px] text-muted">
         © {new Date().getFullYear()}
       </span>
     </footer>

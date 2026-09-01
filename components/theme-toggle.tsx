@@ -10,7 +10,7 @@ export function ThemeToggle() {
   useEffect(() => setMounted(true), []);
 
   if (!mounted) {
-    return <span className="font-mono text-[13px] text-muted">[·]</span>;
+    return <span className="font-mono text-[15px] text-muted">[·]</span>;
   }
 
   const isDark = resolvedTheme === "dark";
@@ -18,7 +18,7 @@ export function ThemeToggle() {
   return (
     <button
       onClick={() => setTheme(isDark ? "light" : "dark")}
-      className="font-mono text-[13px] text-muted transition-colors hover:text-foreground cursor-pointer"
+      className="font-mono text-[15px] text-muted transition-colors hover:text-foreground cursor-pointer"
       aria-label={`Switch to ${isDark ? "light" : "dark"} mode`}
     >
       [{isDark ? "☀" : "☾"}]

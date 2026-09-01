@@ -12,11 +12,11 @@ export default function Writing() {
 
   return (
     <>
-      <p className="mb-5 font-mono text-[13px] text-muted">$ ls writing/</p>
-      <h1 className="mb-6 text-[26px] font-semibold leading-snug tracking-tight">
+      <p className="mb-5 font-mono text-[15px] text-muted">$ ls writing/</p>
+      <h1 className="mb-6 text-[30px] font-semibold leading-snug tracking-tight">
         Writing
       </h1>
-      <p className="mb-10 text-[16px] leading-relaxed text-foreground/85">
+      <p className="mb-10 text-[18px] leading-relaxed text-foreground/85">
         I write about building AI products and agents. I&apos;ve been doing it
         since the chatbot days, so some of these have aged better than others.
       </p>
@@ -24,7 +24,7 @@ export default function Writing() {
       {years.map((year, idx) => (
         <section key={year}>
           <h2
-            className={`mb-2 font-mono text-[12px] font-medium uppercase tracking-[0.14em] text-muted ${idx === 0 ? "" : "mt-10"}`}
+            className={`mb-2 font-mono text-[14px] font-medium uppercase tracking-[0.14em] text-muted ${idx === 0 ? "" : "mt-10"}`}
           >
             ## {year}
           </h2>
@@ -39,12 +39,12 @@ export default function Writing() {
                     rel="noopener noreferrer"
                     className="group flex items-baseline gap-4 py-2.5"
                   >
-                    <span className="w-[6ch] shrink-0 font-mono text-[13px] text-muted">
+                    <span className="w-[6ch] shrink-0 font-mono text-[15px] text-muted">
                       {new Date(post.date).toLocaleDateString("en-US", {
                         month: "short",
                       })}
                     </span>
-                    <span className="text-[15px] font-[450] decoration-muted/60 underline-offset-3 group-hover:underline">
+                    <span className="text-[17px] font-[450] decoration-muted/60 underline-offset-3 group-hover:underline">
                       {post.title}
                     </span>
                   </a>
@@ -58,7 +58,7 @@ export default function Writing() {
         href="https://medium.com/@assafelovic"
         target="_blank"
         rel="noopener noreferrer"
-        className="mt-8 inline-block font-mono text-[13px] text-muted transition-colors hover:text-foreground"
+        className="mt-8 inline-block font-mono text-[15px] text-muted transition-colors hover:text-foreground"
       >
         earlier posts on medium →
       </a>
