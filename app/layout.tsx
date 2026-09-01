@@ -45,7 +45,7 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <body className={`${inter.variable} ${jetbrains.variable}`}>
         <ThemeProvider attribute="class" defaultTheme="light">
-          <main className="mx-auto max-w-[720px] px-6 pb-16 pt-14 sm:pt-18">
+          <main className="mx-auto max-w-[720px] px-5 pb-16 pt-12 sm:px-6 sm:pt-18">
             <Nav />
             {children}
             <Footer />
