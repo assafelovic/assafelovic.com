@@ -144,7 +144,7 @@ export const timeline: TimelineEntry[] = [
   {
     period: "2015",
     title: "ServiceFriend",
-    body: "Where I started building conversational agents, years before anyone called them that. We built messaging systems where bots and humans worked together, and I was granted a US patent for real-time automated conversational agents. Meta acquired the company.",
+    body: "Where I started building conversational agents, with a US patent for bots and humans answering customers together. Meta acquired the company.",
     links: [
       {
         label: "US10303758B2",
@@ -155,22 +155,22 @@ export const timeline: TimelineEntry[] = [
   {
     period: "then",
     title: "Tiv.ai",
-    body: "My first startup: a personal assistant that lived on WhatsApp and helped people get things done. It grew to over 5 million users worldwide. We went through Y Combinator's Startup School in 2019.",
+    body: "My first startup: a personal assistant on WhatsApp that grew to over 5 million users.",
   },
   {
     period: "then",
     title: "Wix",
-    body: "I came to build Wix's first AI agent, the chatbot supporting all Wix users, and grew the team from zero to 60 engineers across nine teams. Then LLMs arrived and disrupted everything we'd built, so we rebuilt around them.",
+    body: "Built Wix's first AI agent and grew the team from zero to 60 engineers. When LLMs arrived, we rebuilt everything around them.",
   },
   {
     period: "then",
     title: "monday.com",
-    body: "Led the AI transformation across a company that runs a billion work tasks a year: launched AI Blocks, then a digital workforce of agents working inside boards. AI usage grew 100% month over month.",
+    body: "Led the company-wide AI strategy, including key products like the digital workforce and agent platform.",
   },
   {
     period: "2023",
     title: "GPT Researcher",
-    body: "An open source agent that researches any topic online and writes a report with citations. I built it before deep research was a product category. It has 29k stars on GitHub and gets cited in academic papers.",
+    body: "An open source agent that researches any topic and writes a cited report, built before deep research was a category. 29k stars on GitHub.",
     links: [
       { label: "github", href: "https://github.com/assafelovic/gpt-researcher" },
       {
@@ -182,7 +182,7 @@ export const timeline: TimelineEntry[] = [
   {
     period: "2024",
     title: "Tavily",
-    body: "Co-founded Tavily, a search engine built for AI agents rather than people. It grew to over a million developers worldwide, with Fortune 500 customers. Nebius acquired it in 2026.",
+    body: "A search engine built for AI agents rather than people, used by over a million developers. Nebius acquired it in 2026.",
     links: [{ label: "tavily.com", href: "https://tavily.com" }],
   },
   {

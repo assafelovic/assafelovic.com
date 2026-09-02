@@ -24,16 +24,37 @@ export default function About() {
           bots, and people asked why.
         </p>
         <p>
-          Most of my work comes down to one idea: making machines useful to
-          people. Lately it&apos;s the reverse too, making the web usable by
-          machines.
-        </p>
-        <p>
           When I&apos;m not building, I&apos;m usually helping others build. I
           angel invest in early stage AI startups as a scout for Sequoia.
         </p>
       </div>
       <SocialIcons />
+
+      <SectionHeading>thinking about</SectionHeading>
+      <p className="mb-4 text-[18px] leading-relaxed text-foreground/85">
+        The last mile of autonomy. Models stopped being the bottleneck, the
+        world is: AGI will only be as capable as what the web and the physical
+        world let agents do without a human stepping in. Questions I keep
+        coming back to:
+      </p>
+      <ul className="space-y-3 text-[18px] leading-relaxed text-foreground/85">
+        <li className="flex gap-4">
+          <span className="shrink-0 font-mono text-[15px] text-muted">?</span>
+          How much of the world has to be rebuilt before agents can act on our
+          behalf, on their own?
+        </li>
+        <li className="flex gap-4">
+          <span className="shrink-0 font-mono text-[15px] text-muted">?</span>
+          What does human–agent interaction look like when it empowers people
+          and gives agents real autonomy, instead of trading one for the
+          other?
+        </li>
+        <li className="flex gap-4">
+          <span className="shrink-0 font-mono text-[15px] text-muted">?</span>
+          How much do we delegate, what do we keep, and where does that
+          equilibrium settle?
+        </li>
+      </ul>
 
       <SectionHeading>the story so far</SectionHeading>
       <ol className="space-y-6">

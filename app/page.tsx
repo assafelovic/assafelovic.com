@@ -29,26 +29,20 @@ export default function Home() {
       </h1>
       <div className="space-y-4 text-[19px] leading-relaxed text-foreground/85">
         <p>
-          I built my first agent in 2015 at{" "}
-          <A href="https://patents.google.com/patent/US10303758B2">
-            ServiceFriend
-          </A>
-          , which Meta acquired. Then I founded Tiv.ai, a WhatsApp
-          assistant that grew to over 5 million users. Later I built Wix&apos;s
-          first AI agent and led AI at monday.com.
+          I built my first agent in 2015 at ServiceFriend, which Meta
+          acquired. Then I founded Tiv.ai, a WhatsApp assistant that grew to
+          over 5 million users. Later I built Wix&apos;s first AI agent and
+          led AI at monday.com.
         </p>
         <p>
-          In 2023 I created{" "}
-          <A href="https://github.com/assafelovic/gpt-researcher">
-            GPT Researcher
-          </A>
-          , the first open source deep research agent. I then co-founded{" "}
-          <A href="https://tavily.com">Tavily</A>, the search engine for AI
-          agents, which Nebius acquired in 2026.
+          In 2023 I created GPT Researcher, the first open source deep
+          research agent, then co-founded Tavily, the search engine for AI
+          agents, which Nebius acquired.
         </p>
         <p>
-          Now I&apos;m building <A href="https://ora.ai">Ora</A>, working on
-          how agents can use businesses autonomously.
+          Most of my work comes down to one idea: making machines useful to
+          people. Now I&apos;m building <A href="https://ora.ai">Ora</A>,
+          which is the reverse: making the world usable by machines.
         </p>
       </div>
       <Link
