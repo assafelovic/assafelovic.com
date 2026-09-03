@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
-import { videos, press } from "@/lib/data";
+import { videos, podcasts, press } from "@/lib/data";
 import type { MediaItem } from "@/lib/data";
 
 export const metadata: Metadata = {
   title: "Media",
-  description: "Talks, interviews, and press from around the web.",
+  description: "Talks, podcasts, and press from around the web.",
   alternates: { canonical: "/media" },
 };
 
@@ -78,7 +78,7 @@ function ResultList({ items }: { items: MediaItem[] }) {
 }
 
 export default function Media() {
-  const total = videos.length + press.length;
+  const total = videos.length + podcasts.length + press.length;
 
   return (
     <>
@@ -86,8 +86,8 @@ export default function Media() {
         Around the web
       </h1>
       <p className="mb-8 text-[19px] leading-relaxed text-foreground/85">
-        Talks I&apos;ve given and press about things I&apos;ve built, from
-        around the web.
+        Talks, podcasts, and press about things I&apos;ve built, from around
+        the web.
       </p>
       <div className="mb-10 font-mono text-[14px]">
         <p className="text-foreground/80">
@@ -100,6 +100,11 @@ export default function Media() {
         ## videos
       </h2>
       <VideoList items={videos} />
+
+      <h2 className="mb-2 mt-10 font-mono text-[14px] font-medium uppercase tracking-[0.14em] text-muted">
+        ## podcasts
+      </h2>
+      <ResultList items={podcasts} />
 
       <h2 className="mb-2 mt-10 font-mono text-[14px] font-medium uppercase tracking-[0.14em] text-muted">
         ## press

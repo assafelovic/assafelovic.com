@@ -240,6 +240,39 @@ export const videos: MediaItem[] = [
   },
 ];
 
+export const podcasts: MediaItem[] = [
+  {
+    title: "Assaf Elovic Takes on the SMB AI Revolution",
+    href: "https://open.spotify.com/episode/72Paey7tdAt4Hlu0QUkGFr",
+    source: "Almost Human",
+    year: "2025",
+  },
+  {
+    title: "How to create agents that people actually want to use",
+    href: "https://open.spotify.com/episode/3oRVQvaQgpfWiL7sivZELP",
+    source: "The Stack Overflow Podcast",
+    year: "2025",
+  },
+  {
+    title: "How to Price GenAI Products",
+    href: "https://open.spotify.com/episode/1I9TDXuCYX37mWwxPW2QfT",
+    source: "Mozzarella",
+    year: "2025",
+  },
+  {
+    title: "From Promise to Platform: Making AI Real in Enterprises",
+    href: "https://open.spotify.com/episode/4JW3hjPNHEQTlEFB9f9O0Y",
+    source: "Entrée Capital",
+    year: "2025",
+  },
+  {
+    title: "Multi agents | Assaf Elovic (GPT Researcher)",
+    href: "https://open.spotify.com/episode/5Q7Zh6BWKUkRGiCM0FAmZK",
+    source: "LangTalks",
+    year: "2024",
+  },
+];
+
 export const press: MediaItem[] = [
   {
     title:
@@ -247,6 +280,12 @@ export const press: MediaItem[] = [
     href: "https://www.calcalistech.com/ctechnews/article/r168bhodbe",
     source: "Calcalist Tech",
     year: "2026",
+  },
+  {
+    title: "How to create agents that people actually want to use",
+    href: "https://stackoverflow.blog/2025/11/18/how-to-create-agents-that-people-actually-want-to-use/",
+    source: "Stack Overflow",
+    year: "2025",
   },
   {
     title: "Tavily raises $25M to connect AI agents to the web",
@@ -259,6 +298,12 @@ export const press: MediaItem[] = [
     href: "https://aipressroom.com/assaf-gpt-researcher-ai-interview/",
     source: "AI Press Room",
     year: "2024",
+  },
+  {
+    title: "Our Com.unity",
+    href: "https://blogs.timesofisrael.com/our-com-unity/",
+    source: "The Times of Israel",
+    year: "2015",
   },
 ];
 
