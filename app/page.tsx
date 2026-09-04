@@ -7,19 +7,6 @@ export const metadata: Metadata = {
   alternates: { canonical: "/" },
 };
 
-function A({ href, children }: { href: string; children: React.ReactNode }) {
-  return (
-    <a
-      href={href}
-      target="_blank"
-      rel="noopener noreferrer"
-      className="font-medium text-foreground underline decoration-muted/60 underline-offset-3 transition-colors hover:decoration-foreground"
-    >
-      {children}
-    </a>
-  );
-}
-
 export default function Home() {
   return (
     <>
@@ -41,8 +28,8 @@ export default function Home() {
         </p>
         <p>
           Most of my work comes down to one idea: making machines useful to
-          people. Now I&apos;m building <A href="https://ora.ai">Ora</A>,
-          which is the reverse: making the world usable by machines.
+          people. Now I&apos;m building Ora, which is the reverse: making the
+          world usable by machines.
         </p>
       </div>
       <Link
