@@ -8,15 +8,17 @@ export const metadata: Metadata = {
   alternates: { canonical: "/media" },
 };
 
-function youtubeId(href: string): string | null {
-  return new URL(href).searchParams.get("v");
+function thumbnailFor(item: MediaItem): string | null {
+  if (item.thumbnail) return item.thumbnail;
+  const id = new URL(item.href).searchParams.get("v");
+  return id ? `https://i.ytimg.com/vi/${id}/mqdefault.jpg` : null;
 }
 
 function VideoList({ items }: { items: MediaItem[] }) {
   return (
     <ul>
       {items.map((item) => {
-        const id = youtubeId(item.href);
+        const thumbnail = thumbnailFor(item);
         return (
           <li key={item.href} className="border-b border-line">
             <a
@@ -25,10 +27,10 @@ function VideoList({ items }: { items: MediaItem[] }) {
               rel="noopener noreferrer"
               className="group flex items-center gap-5 py-3.5"
             >
-              {id && (
+              {thumbnail && (
                 // eslint-disable-next-line @next/next/no-img-element
                 <img
-                  src={`https://i.ytimg.com/vi/${id}/mqdefault.jpg`}
+                  src={thumbnail}
                   alt=""
                   loading="lazy"
                   className="w-28 shrink-0 rounded-[3px] border border-line object-cover aspect-video"

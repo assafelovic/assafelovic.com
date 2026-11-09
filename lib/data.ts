@@ -198,9 +198,23 @@ export type MediaItem = {
   href: string;
   source: string;
   year: string;
+  thumbnail?: string;
 };
 
 export const videos: MediaItem[] = [
+  {
+    title: "Why Amazon Is Blocking Personal AI Assistants",
+    href: "https://www.youtube.com/watch?v=yaoVj0Fy8u4",
+    source: "MTS",
+    year: "2026",
+  },
+  {
+    title: "Can an Agent Use Your Website? How Ora Finds Out with Eve",
+    href: "https://vercel.com/ship/sf/session/can-an-agent-use-your-website-how-ora-finds-out-with-eve",
+    source: "Vercel Ship SF",
+    year: "2026",
+    thumbnail: "/images/media/vercel-ship-sf-2026.jpg",
+  },
   {
     title:
       "How Monday.com Uses AI for SMBs: Assaf Elovic Takes on Agents, Workflows & Trust",
